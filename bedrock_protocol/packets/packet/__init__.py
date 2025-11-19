@@ -14,6 +14,7 @@ from bedrock_protocol.packets.packet.remove_actor_packet import RemoveActorPacke
 from bedrock_protocol.packets.packet.block_actor_data_packet import BlockActorDataPacket
 from bedrock_protocol.packets.packet.container_open_packet import ContainerOpenPacket
 from bedrock_protocol.packets.packet.container_close_packet import ContainerClosePacket
+from bedrock_protocol.packets.packet.network_stack_latency_packet import NetworkStackLatencyPacket
 from bedrock_protocol.packets.packet.level_sound_event_packet import (
     LevelSoundEventPacket,
 )
@@ -33,4 +34,5 @@ __all__ = [
     "LevelSoundEventPacket",
     "ItemRegistryPacket",
     "ItemStackRequestPacket",
+    "NetworkStackLatencyPacket",
 ]
